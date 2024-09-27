@@ -1,7 +1,6 @@
-// program to find sum and average of array
+// program to find sum of array
 
 
-                                                  
 #include <stdio.h>
 
 int main(){
@@ -20,10 +19,5 @@ for(int i=0;i<n;i++){
  sum = sum+arr[i];
 }
 printf("The sum of array is: %d\n",sum);
- int ave;
-ave = sum/n;
-printf("Average = %d\n",ave);
-return 0;
+ return 0;
 }
-
-

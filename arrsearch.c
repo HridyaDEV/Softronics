@@ -2,7 +2,7 @@
 
 int main() {
     int n,search,i,flag=0;
-
+int found=0;
     
     printf("Enter the size of the array: ");
     scanf("%d", &n);
@@ -29,9 +29,14 @@ int main() {
 {
 printf("Element found at %d",i+1);
 flag=1;
+found=1;
 break;
 }
 }
+if (!found){
+printf("Not Found");
+}
+
     return 0;
 }
 
