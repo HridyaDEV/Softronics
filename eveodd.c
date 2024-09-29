@@ -1,3 +1,6 @@
+
+// program to find anumber is evn or odd
+
 #include <stdio.h>
 int main(){
 	int num;
