@@ -1,5 +1,4 @@
 
-// Program to find maximum and minimum values of an array
 
 
 
