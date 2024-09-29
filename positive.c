@@ -1,3 +1,4 @@
+// program to find out a number is positive or negative
 #include <stdio.h>
 
 int main(){
