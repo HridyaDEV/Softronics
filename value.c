@@ -1,3 +1,5 @@
+// program to print value of n according to value of m
+
 #include <stdio.h>
 
 int main() {
