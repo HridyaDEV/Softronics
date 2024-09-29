@@ -1,3 +1,4 @@
+// program to find caste vote
 #include <stdio.h>
 
 int main(){
