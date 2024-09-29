@@ -1,4 +1,6 @@
-#include <stdio.h>
+// program to categorize according to height
+
+ #include <stdio.h>
 
 int main() {
     float height;
