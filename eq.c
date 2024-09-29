@@ -1,3 +1,7 @@
+
+// program to find roots of quadratic  equation
+
+
 #include <stdio.h>
 #include <math.h>
 
