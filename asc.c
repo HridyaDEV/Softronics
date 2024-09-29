@@ -1,3 +1,7 @@
+
+
+// program to print array in ascending order
+
 #include <stdio.h>
 
 int main() {
