@@ -1,3 +1,5 @@
+// progran to find if two numbers are eqaul
+
 #include <stdio.h>
 
 int main() {
