@@ -1,0 +1,68 @@
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Calendar Container */
+  .calendar {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+  }
+  
+  /* Month Heading */
+  .calendar h2 {
+    margin: 0;
+    padding: 10px;
+    color: #b08d57; /* Golden-ish color */
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  /* Days of the Week Header */
+  .days-of-week {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    background-color: purple;
+    color: white;
+    padding: 10px 0;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  /* Dates Grid */
+  .dates {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .dates div {
+    padding: 15px;
+    border-radius: 50%;
+    background-color: #f7f7f7;
+    color: black;
+    text-align: center;
+  }
+  
+  /* Optional: Style weekends */
+  .dates div:nth-child(7n), 
+  .dates div:nth-child(7n + 1) {
+    color: #d9534f;
+  }
+  
+  /* Gray out the overflow dates */
+  .gray {
+    color: #c0c0c0;
+  }
+  
