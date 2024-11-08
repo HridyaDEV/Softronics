@@ -1,2 +1,0 @@
-# Softronics
-C programming tasks

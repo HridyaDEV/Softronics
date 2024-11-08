@@ -1,5 +1,5 @@
 
-//c programm to move zeroes to end of in an array
+//c programm to move zeroes to end  in an array
 
 
 #include <stdio.h>
